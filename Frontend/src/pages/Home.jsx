@@ -67,7 +67,7 @@ const Home = () => {
             {t('heroDescription')}
           </p>
           <div className="flex justify-center gap-3 sm:gap-4 md:gap-6 flex-wrap mt-4 sm:mt-5 md:mt-6">
-            <Link to='/create-reservation' className="cursor-pointer bg-[#FC563C] px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:bg-white hover:text-[#FC563C] transition-all duration-300">
+            <Link to='/create-reservation' className="cursor-pointer bg-blue-700 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:bg-white hover:text-[#FC563C] transition-all duration-300">
               {t('heroStartButton')}
             </Link>
             <Link to='/about' className="cursor-pointer border border-white px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:bg-[#FC563C] hover:border-[#FC563C] transition-all duration-300">
