@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+body{
+    background-color: aliceblue;
+}
+
+@font-face {
+  font-family: 'Climax';
+  src: url('./assets/fonts/climax.otf') format('opentype');
+}
+
+.font-climax {
+  font-family: 'Climax', sans-serif;
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px #FC563C;
+}
+
+
+
+
+@keyframes driveIn {
+  0% {
+    transform: translateY(300px) scale(0.4);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes comeFromTop {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes comeFromBottom {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes comeFromLeft {
+  0% {
+    transform: translateX(-700px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes comeFromRight {
+  0% {
+    transform: translateX(700px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes stampEffect {
+  0% {
+    transform: scale(7) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(5) rotate(0deg);
+    opacity: 0.3;
+  }
+  70% {
+    transform: scale(3) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes carMoveEffect {
+  0% {
+    transform: translate(-75px, -75px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-75px, 0px) rotate(90deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg); 
+    opacity: 1;
+  }
+}
+
+@keyframes carMoveEffect2 {
+  0% {
+    transform: translate(-100px, 65px) rotate(90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0px, 65px) rotate(90deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes comeFromSection {
+  0% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.001;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleFromTop {
+  0% {
+    transform: scale(0) translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes revealDown {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "loginTitle": "Log in to Exclusive",
+  "loginSubtitle": "Enter your details below",
+  "email": "Email",
+  "password": "Password",
+  "loginButton": "Login",
+  "noAccount": "Don’t have an account?",
+  "register": "Register",
+
+  "heroTitle": "Don’t waste time in the city",
+  "heroHighlight": "UniParque",
+  "heroDescription": "Find empty parking spots, reserve in advance, and pay via mobile — all on one platform.",
+  "heroStartButton": "Start Now",
+  "heroLearnMoreButton": "Learn More",
+
+  "featureHeader": "Why UniParque?",
+  "feature1Title": "Real-time map",
+  "feature1Description": "See the nearest empty parking spots live.",
+  "feature2Title": "Fast reservation",
+  "feature2Description": "Book your spot in 2 clicks, save time.",
+  "feature3Title": "Easy payment",
+  "feature3Description": "Pay in seconds via card or app.",
+
+  "ctaHeader": "Spend your time living, not looking for parking",
+  "ctaDescription": "With UniParque, parking problems are history",
+  "ctaButton": "Join Now",
+
+  "hiwHeader": "How it works",
+  "hiwStep1Title": "Find a spot",
+  "hiwStep1Description": "Select the nearest empty parking spot on the map",
+  "hiwStep2Title": "Reserve",
+  "hiwStep2Description": "Reserve your spot with one click so no one else takes it",
+  "hiwStep3Title": "Park",
+  "hiwStep3Description": "Arrive and park comfortably without wasting time",
+
+  "stat1Value": "10K+",
+  "stat1Label": "Users",
+  "stat2Value": "500+",
+  "stat2Label": "Parking spots",
+  "stat3Value": "24/7",
+  "stat3Label": "Service",
+  "stat4Value": "99%",
+  "stat4Label": "Satisfaction",
+
+  "appHeader": "Everything is easier with the mobile app",
+  "appDescription": "With the UniParque app, see parking spots in real-time, reserve, and pay — all from your pocket.",
+  "appButton": "Download App",
+
+  "testimonialsHeader": "What users say",
+  "testimonial1Text": "I no longer waste time searching for parking. Amazing!",
+  "testimonial1Author": "Elvin",
+  "testimonial2Text": "Such an app is much needed in Baku. Very convenient.",
+  "testimonial2Author": "Nigar",
+  "testimonial3Text": "UI/UX is excellent, very easy to use.",
+  "testimonial3Author": "Murad",
+
+  "reservation": {
+    "header": "Reservations",
+    "subHeader": "Manage your current and past bookings",
+    "activeReservations": "Current active reservations",
+    "activeReservationsDesc": "View and manage your ongoing bookings",
+    "pastReservations": "Past reservations",
+    "pastReservationsDesc": "Check your booking history and details",
+    "createButton": "Create a Reservation"
+  },
+
+  "activeReservations": {
+    "header": "Current Reservations",
+    "loading": "Loading reservations...",
+    "noReservations": "No active reservations", 
+    "checkIn": "Check In",
+    "cancel": "Cancel",
+    "end": "End Session",
+    "section": "Section",
+    "subSection": "Sub Section",
+    "car": "Car",
+    "arrival": "Arrival",
+    "toastCancelled": "Cancelled",
+    "toastError": "Error",
+    "toastWelcome": "Welcome",
+    "toastSessionEnded": "Session ended",
+    "confirmCheckIn": "Are you sure about check in?",
+    "confirmEndSession": "End session?"
+  },
+
+  "pastReservations": {
+    "title": "Past Reservations",
+    "loading": "Loading...",
+    "noReservations": "No past reservations found.",
+    "branch": "Branch",
+    "section": "Section",
+    "subSection": "Sub Section",
+    "car": "Car",
+    "price": "Price",
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "status": {
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    }
+  }, 
+  
+  "createReservation": {
+    "title": "Choose a Parking",
+    "highlight": "Parking",
+    "description": "Select the most suitable parking spot and reserve it",
+    "searchPlaceholder": "Search for a parking branch...",
+    "noResults": "No any branches!"
+  },
+
+  "selectPlace": {
+    "parkingLayout": "Parking Layout",
+    "loading": "Loading layout…",
+    "emptyBranch": "This branch is empty! No sections available.",
+    "legend": "Legend:",
+    "noSubSections": "No subsections available",
+    "noPlaces": "No places available",
+    "reservedByAnother": "This place has already been reserved",
+    "occupiedByAnother": "This place has already been occupied",
+    "parkedByYou": "Green with a car → Parked by you",
+    "reservedByYou": "Green ~Reserved~ → Reserved by you",
+    "reservedByAnotherUser": "Red ~Reserved~ → Reserved by another user",
+    "occupiedByAnotherUser": "Red with a car → Occupied by another user",
+    "available": "Available (free spot)",
+    "yourPlate": "Your plate:",
+    "plate": "Plate:"
+  },
+
+  "reservationDetails": {
+    "title": "Reservation Details",
+    "branch": "Branch:",
+    "section": "Section:",
+    "subSection": "Subsection:",
+    "placeId": "Place ID:",
+    "carNumber": "Car Number:",
+    "cardNumber": "Card number",
+    "arrivalDate": "Estimated Arrival Date:",
+    "totalPrice": "Total Price:",
+    "accountBalance": "Your Account Balance:",
+    "confirmReservation": "Confirm Reservation",
+    "payByCard": "Pay by card",
+    "payBalance": "Pay off the balance",
+    "fillAllFields": "Fill all the fields",
+    "fillAllPayFields": "Fill all the pay detail fields.",
+    "invalidCard": "Invalid card number",
+    "invalidDate": "Invalid date! Look for future",
+    "insufficientFunds": "Insufficient funds",
+    "loading": "Loading...",
+    "successReservation": "Your reservation created successfully!",
+    "pay": "Pay",
+    "return": "Return"
+  },
+
+  "about": {
+    "hero": {
+      "title": "Smart Parking. Smarter Cities.",
+      "desc": "Launched in 2026, our platform is designed to solve one of the most common urban challenges — finding a parking space quickly and easily."
+    },
+    "problem": {
+      "title": "The Problem",
+      "desc": "In modern cities, finding parking is time-consuming and stressful. Drivers often spend valuable time searching for available spots, increasing fuel consumption and contributing to traffic congestion."
+    },
+    "solution": {
+      "title": "Our Solution",
+      "desc": "Our platform allows users to view available parking spots in real-time, make reservations instantly, and manage their bookings with ease. The system is fast, intuitive, and built with user experience in mind."
+    },
+    "features": {
+      "title": "Key Features",
+      "realTimeReservations": { "title": "Real-time Reservations", "desc": "Instantly find and reserve available parking spots" },
+      "smartManagement": { "title": "Smart Management", "desc": "Easily manage and track your reservations" },
+      "multipleLocations": { "title": "Multiple Locations", "desc": "Choose from different branches and sections" },
+      "fastModernUI": { "title": "Fast & Modern UI", "desc": "Clean, responsive and intuitive interface" },
+      "secureSystem": { "title": "Secure System", "desc": "Your data is protected and handled safely" },
+      "optimizedPerformance": { "title": "Optimized Performance", "desc": "Minimal delays with maximum efficiency" }
+    },
+    "stats": {
+      "title": "Platform Impact",
+      "reservations": { "value": "1000+", "label": "Reservations" },
+      "activeUsers": { "value": "100+", "label": "Active Users" },
+      "parkingZones": { "value": "10+", "label": "Parking Zones" },
+      "satisfactionRate": { "value": "99%", "label": "Satisfaction Rate" }
+    },
+    "cta": {
+      "title": "Experience the Future of Parking 🚀",
+      "desc": "Reserve your spot now and save time every day.",
+      "button": "Book Now"
+    }
+  },
+
+  "header": {
+    "home": "Home",
+    "reservations": "Reservations",
+    "aboutUs": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "balance": "Balance",
+    "signInAlert": "You haven't logged in yet! Do you want to?"
+  },
+
+  "profile": {
+    "editProfile": "Edit Profile ✨",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "updatePhoto": "Update Photo",
+    "deletePhoto": "Delete Photo",
+    "saveChanges": "Save Changes",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account",
+    "home": "↤ Home",
+    "logout": "Log out",
+    "photoSuccess": "Profile photo changed successfully",
+    "photoFail": "Failed to update photo",
+    "infoSuccess": "User info updated successfully",
+    "infoFail": "Failed to update info",
+    "deletePhotoSuccess": "Profile photo deleted",
+    "deleteAccountConfirm": "Are you sure you want to delete your account? This action cannot be undone!",
+    "deleteAccountSuccess": "Account deleted successfully",
+    "deleteAccountFail": "Failed to delete account",
+    "firstnameMin": "Firstname must have at least 2 characters",
+    "lastnameMin": "Lastname must have at least 2 characters"
+  },
+
+  "changePassword": {
+    "title": "Change Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "fillAllFields": "Fill all the fields",
+    "minLength": "New password must be at least 8 characters long",
+    "requirements": "Password must contain at least 1 uppercase, 1 lowercase, and 1 decimal",
+    "passwordMismatch": "Passwords do not match",
+    "success": "Password changed!",
+    "oldPasswordIncorrect": "Old password is incorrect",
+    "updating": "Updating...",
+    "updateButton": "Update Password"
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "If you have any questions or suggestions, feel free to contact us.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "sendMessage": "Send Message",
+    "name": "Your Name",
+    "emailInput": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent 🚀",
+    "error": "Something went wrong ❌",
+    "locationText": "Baku, Yasamal district, Abbas Mirza Sharifzadeh Street 26"
+  },
+
+  "footer": {
+    "description": "A smart platform for modern users. Built with performance, design and simplicity in mind.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "reservations": "Reservations",
+    "contact": "Contact",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved"
+  }
+}

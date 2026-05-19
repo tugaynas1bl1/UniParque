@@ -1,0 +1,55 @@
+services:
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    image: tugaidock/uniparque-front
+    restart: always
+    ports:
+      - "3001:5173"
+    volumes:
+      - ./Frontend:/app
+      - /app/node_modules
+    depends_on:
+      - api
+    networks:
+      - app-network
+      
+
+  api:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    image: tugaidock/uniparque-back
+    restart: always
+    ports:
+      - "5000:5000"
+
+    environment:
+      ConnectionStrings__DefaultConnectionString: "Server=mssql,1433;Database=UniParqueDB;User ID=sa;Password=UniParque2026!;TrustServerCertificate=True;"
+
+    depends_on:
+      - mssql
+
+    networks:
+      - app-network
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    restart: always
+
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "UniParque2026!"
+
+    ports:
+      - "1433:1433"
+
+    networks:
+      - app-network
+
+
+networks:
+  app-network:
+    driver: bridge

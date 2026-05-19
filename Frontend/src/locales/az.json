@@ -1,0 +1,266 @@
+{
+  "loginTitle": "Exclusive-ə giriş",
+  "loginSubtitle": "Məlumatlarınızı daxil edin",
+  "email": "Email",
+  "password": "Şifrə",
+  "loginButton": "Giriş",
+  "noAccount": "Hesabınız yoxdur?",
+  "register": "Qeydiyyat",
+
+  "heroTitle": "Şəhərdə vaxt itirmə",
+  "heroHighlight": "UniParque",
+  "heroDescription": "Boş park yerlərini tap, əvvəlcədən rezerv et və mobil ödəniş et — hamısı bir platformada.",
+  "heroStartButton": "İndi Başla",
+  "heroLearnMoreButton": "Daha çox öyrən",
+
+  "featureHeader": "Niyə UniParque?",
+  "feature1Title": "Real-time xəritə",
+  "feature1Description": "Ən yaxın boş park yerlərini canlı olaraq gör.",
+  "feature2Title": "Sürətli rezervasiya",
+  "feature2Description": "2 kliklə yerini tut, vaxt itirmə.",
+  "feature3Title": "Asan ödəniş",
+  "feature3Description": "Kart və ya tətbiqdən saniyələr içində ödə.",
+
+  "ctaHeader": "Vaxtını park axtarmağa yox, yaşamağa sərf et",
+  "ctaDescription": "UniParque ilə park problemi artıq tarixdir",
+  "ctaButton": "İndi qoşul",
+
+  "hiwHeader": "Necə işləyir",
+  "hiwStep1Title": "Yer tap",
+  "hiwStep1Description": "Xəritədən sənə ən yaxın boş park yerlərini seç",
+  "hiwStep2Title": "Rezerv et",
+  "hiwStep2Description": "Bir kliklə yerini saxla və başqasına getməsin",
+  "hiwStep3Title": "Park et",
+  "hiwStep3Description": "Gəl və rahat şəkildə park et, vaxt itirmə",
+
+  "stat1Value": "10K+",
+  "stat1Label": "İstifadəçi",
+  "stat2Value": "500+",
+  "stat2Label": "Park yeri",
+  "stat3Value": "24/7",
+  "stat3Label": "Xidmət",
+  "stat4Value": "99%",
+  "stat4Label": "Məmnuniyyət",
+
+  "appHeader": "Mobil tətbiq ilə hər şey daha asan",
+  "appDescription": "UniParque tətbiqi ilə park yerlərini real vaxtda gör, rezerv et və ödəniş et — hamısı cibində.",
+  "appButton": "Tətbiqi yüklə",
+
+  "testimonialsHeader": "İstifadəçilər nə deyir",
+  "testimonial1Text": "Artıq park yeri axtarmağa vaxt itirmirəm. Möhtəşəmdir!",
+  "testimonial1Author": "Elvin",
+  "testimonial2Text": "Bakıda belə app çox lazımdır. Çox rahatdır.",
+  "testimonial2Author": "Nigar",
+  "testimonial3Text": "UI/UX çox yaxşıdır, istifadə etmək çox rahatdır.",
+  "testimonial3Author": "Murad",
+
+  "reservation": {
+    "header": "Rezervasiyalar",
+    "subHeader": "Hazırkı və keçmiş sifarişlərinizi idarə edin",
+    "activeReservations": "Aktiv rezervasiyalar",
+    "activeReservationsDesc": "Davam edən sifarişlərinizi baxın və idarə edin",
+    "pastReservations": "Keçmiş rezervasiyalar",
+    "pastReservationsDesc": "Sifariş tarixçənizi və təfərrüatlarını yoxlayın",
+    "createButton": "Rezervasiya yarat"
+  },
+
+  "activeReservations": {
+    "header": "Aktiv rezervasiyalar",
+    "loading": "Rezervasiyalar yüklənir...",
+    "noReservations": "Heç bir aktiv rezervasiya yoxdur",
+    "checkIn": "Giriş",
+    "cancel": "Ləğv et",
+    "end": "Sessiyanı bitir",
+    "section": "Bölmə",
+    "subSection": "Alt Bölmə",
+    "car": "Maşın",
+    "arrival": "Gəliş",
+    "toastCancelled": "Ləğv edildi",
+    "toastError": "Xəta",
+    "toastWelcome": "Xoş gəlmisiniz",
+    "toastSessionEnded": "Sessiya bitdi",
+    "confirmCheckIn": "Girişdən əminsiniz?",
+    "confirmEndSession": "Sessiyanı bitirmək istəyirsiniz?"
+  },
+
+  "pastReservations": {
+    "title": "Keçmiş rezervasiyalar",
+    "loading": "Yüklənir...",
+    "noReservations": "Keçmiş rezervasiya tapılmadı.",
+    "branch": "Filial",
+    "section": "Bölmə",
+    "subSection": "Alt Bölmə",
+    "car": "Maşın",
+    "price": "Qiymət",
+    "page": "Səhifə",
+    "previous": "Əvvəlki",
+    "next": "Növbəti",
+    "status": {
+      "completed": "Tamamlandı",
+      "cancelled": "Ləğv edildi",
+      "expired": "Vaxtı bitdi"
+    }
+  },
+
+  "createReservation": {
+    "title": "Park Seç",
+    "highlight": "Seç",
+    "description": "Sənə ən uyğun park yerini seç və rezerv et",
+    "searchPlaceholder": "Park yerini axtar...",
+    "noResults": "Heç bir filial tapılmadı!"
+  },
+
+  "selectPlace": { "loading": "Layout yüklənir…",
+    "parkingLayout": "Parkinq planı",
+    "emptyBranch": "Bu filial boşdur! Heç bir bölmə yoxdur.",
+    "legend": "Əfsanə:",
+    "noSubSections": "Heç bir alt bölmə mövcud deyil",
+    "noPlaces": "Heç bir yer mövcud deyil",
+    "reservedByAnother": "Bu yer artıq rezerv olunub",
+    "occupiedByAnother": "Bu yer artıq tutulub",
+    "parkedByYou": "Yaşıl maşın → Sizin park etdiyiniz yer",
+    "reservedByYou": "Yaşıl ~Reserved~ → Sizin rezerv etdiyiniz yer",
+    "reservedByAnotherUser": "Qırmızı ~Reserved~ → Başqa istifadəçi tərəfindən rezerv olunub",
+    "occupiedByAnotherUser": "Qırmızı maşın → Başqa istifadəçi tərəfindən tutulub",
+    "available": "Mövcud (boş yer)",
+    "yourPlate": "Sizin nömrə:",
+    "plate": "Nömrə:"
+  },
+
+  "reservationDetails": {
+    "title": "Rezervasiya Təfərrüatları",
+    "branch": "Filial:",
+    "section": "Bölmə:",
+    "subSection": "Alt Bölmə:",
+    "placeId": "Yer ID:",
+    "carNumber": "Avtomobil nömrəsi:",
+    "cardNumber": "Kart nömrəsi",
+    "arrivalDate": "Təxmini gəlmə tarixi:",
+    "totalPrice": "Cəmi qiymət:",
+    "accountBalance": "Hesab balansınız:",
+    "confirmReservation": "Rezervasiyanı təsdiqlə",
+    "payByCard": "Kartla ödəyin",
+    "payBalance": "Balansdan ödəyin",
+    "fillAllFields": "Bütün sahələri doldurun",
+    "fillAllPayFields": "Ödəmə sahələrinin hamısını doldurun",
+    "invalidCard": "Yanlış kart nömrəsi",
+    "invalidDate": "Yanlış tarix! Gələcək üçün seçin",
+    "insufficientFunds": "Kifayət qədər vəsait yoxdur",
+    "loading": "Yüklənir…",
+    "successReservation": "Rezervasiyanız uğurla yaradıldı!",
+    "pay": "Ödəyin",
+    "return": "Geri"
+  },
+
+  "about": {
+    "hero": {
+      "title": "Ağıllı Park. Daha Ağıllı Şəhərlər.",
+      "desc": "2026-cı ildə istifadəyə verilmiş platformamız şəhər həyatının ən yaygın problemlərindən birini həll etmək üçün hazırlanmışdır — park yerini tez və asan tapmaq."
+    },
+    "problem": {
+      "title": "Problem",
+      "desc": "Müasir şəhərlərdə park yeri tapmaq vaxt aparan və stressli bir prosesdir. Sürücülər çox vaxt boş yerlər axtarmağa sərf edir, yanacaq sərfiyyatını artırır və tıxaclara səbəb olur."
+    },
+    "solution": {
+      "title": "Həllimiz",
+      "desc": "Platformamız istifadəçilərə real vaxtda mövcud park yerlərini göstərir, dərhal rezervasiya etməyə imkan verir və sifarişlərini asanlıqla idarə etməyə imkan yaradır. Sistem sürətli, intuitiv və istifadəçi təcrübəsi nəzərə alınaraq hazırlanıb."
+    },
+    "features": {
+      "title": "Əsas Xüsusiyyətlər",
+      "realTimeReservations": { "title": "Real vaxt rezervasiyalar", "desc": "Mövcud park yerlərini dərhal tapın və rezerv edin" },
+      "smartManagement": { "title": "Ağıllı idarəetmə", "desc": "Rezervasiyalarınızı asanlıqla idarə edin və izləyin" },
+      "multipleLocations": { "title": "Bir neçə yer", "desc": "Fərqli filial və bölmələrdən seçim edin" },
+      "fastModernUI": { "title": "Sürətli və müasir UI", "desc": "Təmiz, cavabdeh və intuitiv interfeys" },
+      "secureSystem": { "title": "Təhlükəsiz sistem", "desc": "Məlumatlarınız qorunur və təhlükəsiz şəkildə işlənir" },
+      "optimizedPerformance": { "title": "Optimallaşdırılmış performans", "desc": "Minimum gecikmə və maksimum səmərəlilik" }
+    },
+    "stats": {
+      "title": "Platforma Təsiri",
+      "reservations": { "value": "1000+", "label": "Rezervasiyalar" },
+      "activeUsers": { "value": "100+", "label": "Aktiv istifadəçilər" },
+      "parkingZones": { "value": "10+", "label": "Park zonaları" },
+      "satisfactionRate": { "value": "99%", "label": "Məmnuniyyət səviyyəsi" }
+    },
+    "cta": {
+      "title": "Parkın Gələcəyini Kəşf Edin 🚀",
+      "desc": "İndi yerinizi rezerv edin və hər gün vaxt qazanın.",
+      "button": "İndi Rezerv Et"
+    }
+  },
+
+  "header": {
+    "home": "Əsas Səhifə",
+    "reservations": "Rezervasiyalar",
+    "aboutUs": "Haqqımızda",
+    "contact": "Əlaqə",
+    "getStarted": "Başla",
+    "balance": "Balans",
+    "signInAlert": "Hələ giriş etməmisiniz! Giriş etmək istəyirsiniz?"
+  },
+
+  "profile": {
+    "editProfile": "Profili Redaktə et ✨",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "updatePhoto": "Şəkili Yenilə",
+    "deletePhoto": "Şəkili Sil",
+    "saveChanges": "Dəyişiklikləri Yadda Saxla",
+    "changePassword": "Şifrəni Dəyiş",
+    "deleteAccount": "Hesabı Sil",
+    "home": "↤ Ana Səhifə",
+    "logout": "Çıxış",
+    "photoSuccess": "Profil şəkli uğurla dəyişdirildi",
+    "photoFail": "Şəkil yenilənmədi",
+    "infoSuccess": "İstifadəçi məlumatları uğurla yeniləndi",
+    "infoFail": "Məlumatlar yenilənmədi",
+    "deletePhotoSuccess": "Profil şəkli silindi",
+    "deleteAccountConfirm": "Hesabınızı silmək istədiyinizə əminsiniz? Bu əməliyyat geri alına bilməz!",
+    "deleteAccountSuccess": "Hesab uğurla silindi",
+    "deleteAccountFail": "Hesab silinmədi",
+    "firstnameMin": "Ad ən azı 2 simvol olmalıdır",
+    "lastnameMin": "Soyad ən azı 2 simvol olmalıdır"
+  },
+
+  "changePassword": {
+    "title": "Şifrəni Dəyiş",
+    "oldPassword": "Köhnə Şifrə",
+    "newPassword": "Yeni Şifrə",
+    "confirmPassword": "Şifrənizi Təsdiqləyin",
+    "fillAllFields": "Bütün sahələri doldurun",
+    "minLength": "Yeni şifrə ən az 8 simvol olmalıdır",
+    "requirements": "Şifrə ən az 1 böyük hərf, 1 kiçik hərf və 1 rəqəm içərməlidir",
+    "passwordMismatch": "Şifrələr uyğun deyil",
+    "success": "Şifrə uğurla dəyişdirildi!",
+    "oldPasswordIncorrect": "Köhnə şifrə yanlışdır",
+    "updating": "Yenilənir...",
+    "updateButton": "Şifrəni Yenilə"
+  },
+
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "subtitle": "Hər hansı sualın, təklifin və ya problem varsa bizimlə əlaqə saxla.",
+    "email": "E-poçt",
+    "phone": "Telefon",
+    "location": "Ünvan",
+    "sendMessage": "Mesaj Göndər",
+    "name": "Adınız",
+    "emailInput": "E-poçt",
+    "message": "Mesaj",
+    "send": "Göndər",
+    "sending": "Göndərilir...",
+    "success": "Mesaj göndərildi 🚀",
+    "error": "Xəta baş verdi ❌",
+    "locationText": "Bakı şəhəri, Yasamal rayonu, Abbas Mirzə Şərifzadə küçəsi 26"
+  },
+
+  "footer": {
+    "description": "Smart platform müasir istifadəçilər üçün. Performans, dizayn və sadəlik üzərində qurulub.",
+    "quickLinks": "Sürətli keçidlər",
+    "home": "Ana səhifə",
+    "about": "Haqqımızda",
+    "reservations": "Rezervasiyalar",
+    "contact": "Əlaqə",
+    "contactTitle": "Əlaqə",
+    "rights": "Bütün hüquqlar qorunur"
+  }
+}

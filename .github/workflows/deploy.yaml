@@ -1,0 +1,116 @@
+name: UniParque CI/CD Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+  workflow_dispatch:
+
+jobs:
+
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Clone Repository
+        uses: actions/checkout@v4
+
+
+      # .NET 9 Setup
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+
+      # Node.js Setup
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+
+      # Backend Dependencies
+      - name: Restore Backend Dependencies
+        working-directory: ./Backend/UniParque.API
+        run: dotnet restore
+
+
+      # Backend Build
+      - name: Build Backend
+        working-directory: ./Backend/UniParque.API
+        run: dotnet build --configuration Release --no-restore
+
+
+      # Frontend Dependencies
+      - name: Install Frontend Dependencies
+        working-directory: ./Frontend
+        run: npm install --legacy-peer-deps
+
+
+      # Frontend Build
+      - name: Build Frontend
+        working-directory: ./Frontend
+        run: npm run build
+
+ 
+      # Docker Login
+      - name: Docker Login
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+
+      # Build & Push Backend Image
+      - name: Build and Push Backend Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/uniparque-back ./Backend
+          docker push ${{ secrets.DOCKER_USERNAME }}/uniparque-back
+
+
+      # Build & Push Frontend Image
+      - name: Build and Push Frontend Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/uniparque-front ./Frontend
+          docker push ${{ secrets.DOCKER_USERNAME }}/uniparque-front
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Deploy to AWS EC2
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ${{ secrets.AWS_USERNAME }}
+          key: ${{ secrets.AWS_SSH_SECRET_KEY }}
+          port: 22
+
+          script: |
+
+            sudo yum update -y
+            sudo yum install -y git docker
+            sudo systemctl start docker
+            sudo systemctl enable docker
+            sudo usermod -aG docker ec2-user
+
+            sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+            sudo chmod +x /usr/local/bin/docker-compose
+
+            if [ ! -d "UniParque/.git" ]; then
+              git clone https://github.com/tugaynas1bl1/UniParque.git
+            fi
+
+            cd UniParque
+
+            git pull origin master
+
+            sudo docker-compose pull
+            sudo docker compose down
+            sudo docker compose up -d --build
+            sudo docker compose ps
+            sudo docker image prune -f
+
+            
