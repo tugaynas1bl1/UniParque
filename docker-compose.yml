@@ -6,16 +6,21 @@ services:
       dockerfile: Dockerfile
     image: tugaidock/uniparque-front
     restart: always
+
     ports:
       - "3001:5173"
+
     volumes:
       - ./Frontend:/app
       - /app/node_modules
+
     depends_on:
       - api
+
     networks:
       - app-network
-      
+
+
 
   api:
     build:
@@ -23,6 +28,7 @@ services:
       dockerfile: Dockerfile
     image: tugaidock/uniparque-back
     restart: always
+
     ports:
       - "5000:5000"
 
@@ -35,6 +41,8 @@ services:
     networks:
       - app-network
 
+
+
   mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
     restart: always
@@ -46,10 +54,19 @@ services:
     ports:
       - "1433:1433"
 
+    volumes:
+      - sql_data:/var/opt/mssql/data
+
     networks:
       - app-network
+
 
 
 networks:
   app-network:
     driver: bridge
+
+
+
+volumes:
+  sql_data:
